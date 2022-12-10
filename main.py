@@ -15,4 +15,6 @@ sg.Radio('EUR','rd_expenses', key='EUR')
 sg.Radio('UAH','rd_expenses', key='UAH')],
 
 [sg.Frame('Choose your Analysis', [[sg.Radio('%','rd_expenses', key='%')
-sg.Radio('currency','rd_expenses', key='currency')]
+sg.Radio('currency','rd_expenses', key='currency')
+                                    
+ window.close()
